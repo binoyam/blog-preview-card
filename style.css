@@ -32,11 +32,14 @@ body {
     align-items: flex-start;
     overflow: hidden;
     gap: 1rem;
+    border-radius: 1rem;
 }
 .svg-div{
     max-width: 336px;
     height: 201px;
     margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
 }
 .svg-art{
     width: 100%;

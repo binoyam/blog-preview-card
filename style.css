@@ -35,6 +35,10 @@ body {
   border-radius: 1rem;
   border: 1px solid var(--Black);
   box-shadow: 6px 6px 0px 0px var(--Black);
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  box-shadow: 15px 15px 0px 0px var(--Black);
 }
 .svg-div {
   max-width: 336px;
@@ -82,7 +86,9 @@ body {
   height: 32px;
   border-radius: 50%;
 }
-
+.author .name{
+    font-size: 0.86rem;
+}
 .attribution {
   position: absolute;
   bottom: 10px;

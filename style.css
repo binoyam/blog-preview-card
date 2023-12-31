@@ -41,6 +41,7 @@ body {
 .card:hover {
   box-shadow: 15px 15px 0px 0px var(--Black);
 }
+/* SVG WRAPPER */
 .svg-div {
   max-width: 336px;
   height: 201px;
@@ -48,21 +49,25 @@ body {
   border-radius: 1rem;
   overflow: hidden;
 }
+/* SVG / IMAGE */
 .svg-art {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+/* TOP HEADER */
 .about {
   padding: 0.4rem 0.66rem;
   background-color: var(--Yellow);
   font-size: 0.86rem;
   border-radius: 5px;
 }
+/* DATE */
 .date {
   font-weight: 600;
   font-size: 0.86rem;
 }
+/* TITLE / LINK */
 .link {
   text-decoration: none;
   color: black;
@@ -71,25 +76,31 @@ body {
 .link:hover {
   color: var(--Yellow);
 }
+/* PARAGRAPH */
 .text {
   color: var(--Grey);
   line-height: 1.5;
   font-weight: 600;
 }
+/* AUTHOR SECTION / WRAPPER */
 .author {
   display: flex;
   align-items: center;
   gap: 0.85rem;
   margin-top: 0.5rem;
 }
+/* AUTHOR IMAGE */
 .author .avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
 }
+/* AUTHOR NAME */
 .author .name {
   font-size: 0.86rem;
 }
+
+/* ATTRIBUTION */
 .attribution {
   position: absolute;
   bottom: 10px;
@@ -99,30 +110,39 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* FOR SMALL SCREENS */
 @media only screen and (max-width: 500px) {
+  /* CARD */
   .card {
     width: 325px;
     padding: 1rem;
   }
+  /* SVG WRAPPER */
   .svg-div {
     width: 100%;
     height: 200px;
   }
+  /* SVG / IMAGE */
   .svg-art {
     object-fit: cover;
   }
+  /* DATE */
   .date {
     font-size: 0.7rem;
   }
+  /* TITLE / LINK */
   .link {
     font-size: 1.2rem;
   }
+  /* PARAGRAPH */
   .text {
     font-size: 0.9rem;
   }
+  /* AUTHOR SECTION / WRAPPER */
   .author {
     gap: 0.7rem;
   }
+  /* AUTHOR NAME */
   .author .name {
     font-size: 0.8rem;
   }
